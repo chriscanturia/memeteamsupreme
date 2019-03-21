@@ -5,7 +5,7 @@ body, html {
 	width: 100%;
 }
 body { /* General style rules for the body section */
-	background-color:purple;
+	background-color:lightpink;
 	text-align:center;
 }
 h1 { /* Matches elements with h3 tag */
@@ -21,38 +21,42 @@ h4 { /* Matches elements with h3 tag */
 	color: blue;
 }
 
-#div1 { /* Matches element with id=SimpleDiv */
-/*	background-color: gray;*/
-
-	color: hotpink;
-
-
-	border-style: solid groove;
-  border-width: 5px;
-	border-color: green;
-	margin: 5%;
-	padding: 6px;
+#div1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	padding: 150px;
 }
 
 #div2 {
-/*	background-color: gold; */
-	margin: 5%;
-	padding: 6px;
-	float: left;
-	width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	padding: 150px;
 }
 
 #div3 {
-	margin: 5%;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
 	padding: 6px;
-	float: right;
-	width: 50%;
-  
+	align-content: center;
+  padding-top: 10%;
+	width: ;
+}
+
+#div4 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	padding: 150px;
 
 }
-#div4 {
-/*	background-color: orange; */
-	margin: 5%;
-	padding: 6px;
-	clear: both;
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
