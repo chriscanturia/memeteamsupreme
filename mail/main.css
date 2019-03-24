@@ -5,8 +5,14 @@ body, html {
 	width: 100%;
 }
 body { /* General style rules for the body section */
-	background-color:lightpink;
+	background-image: url(/mail/images/pink111.gif);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	;
+
+
 	text-align:center;
+
 }
 h1 { /* Matches elements with h3 tag */
 	color: red;
@@ -43,6 +49,7 @@ h4 { /* Matches elements with h3 tag */
 	align-content: center;
   padding-top: 10%;
 	width: ;
+	position: 
 }
 
 #div4 {

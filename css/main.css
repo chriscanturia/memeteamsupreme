@@ -5,8 +5,10 @@ body, html {
 	width: 100%;
 }
 body { /* General style rules for the body section */
-	background-color:purple;
+	background-image: url(/images/back.jpg);
 	text-align:center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 h1 { /* Matches elements with h3 tag */
 	color: red;
@@ -24,30 +26,38 @@ h4 { /* Matches elements with h3 tag */
 #div1 { /* Matches element with id=SimpleDiv */
 /*	background-color: gray;*/
 
-	color: hotpink;
+  position: absolute;
+  left: 120px;
+  width: 300px;
+  border: 3px solid #73AD21;
+	background-color: gold;
+  padding: 10px;
+	top: 30%;
 
-
-	border-style: solid groove;
-  border-width: 5px;
-	border-color: green;
-	margin: 5%;
-	padding: 6px;
 }
 
 #div2 {
 /*	background-color: gold; */
-	margin: 5%;
-	padding: 6px;
-	float: left;
-	width: 20%;
+position: absolute;
+right: 120px;
+width: 300px;
+border: 3px solid purple;
+background-color: #FF72F0;
+padding: 10px;
+top: 30%;
 }
 
 #div3 {
-/*	background-color: red; */
-	margin: 5%;
-	padding: 6px;
-	float: right;
-	width: 50%;
+	position: relative;
+ 	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	border: 3px solid purple;
+	background-color: #FF72F0;
+	padding: 10px;
+	top: 23%
+
+
 }
 #div4 {
 /*	background-color: orange; */
