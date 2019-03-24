@@ -7,6 +7,14 @@ body,html{
 
 #div1 {
   margin: 10%;
+  padding: 10px;
+  border: 50px;
+  align-content: "center";
+}
+
+#div2 {
+  margin: 10%;
+  padding: 10px;
   border: 50px;
   align-content: "center";
 }
