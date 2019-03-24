@@ -1,0 +1,22 @@
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+body { /* General style rules for the body section */
+	background-image: url(/games/images/gamingbackground.gif);
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+  text-align: middle
+  ;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
