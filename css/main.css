@@ -23,7 +23,6 @@ h4 {
 }
 
 #div1 {
-/*	background-color: gray;*/
 
   position: absolute;
   left: 120px;
@@ -36,7 +35,6 @@ h4 {
 }
 
 #div2 {
-/*	background-color: gold; */
 position: absolute;
 right: 120px;
 width: 300px;
@@ -59,7 +57,6 @@ top: 30%;
 
 }
 #div4 {
-/*	background-color: orange; */
 	margin: 5%;
 	padding: 6px;
 	clear: both;
