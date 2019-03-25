@@ -1,7 +1,7 @@
 /* Ref:  http://www.w3schools.com/css/css_syntax.asp */
 
 body, html {
-	height: 100%;
+	/*height: 100%; */
 	width: 100%;
 }
 body { /* General style rules for the body section */
@@ -49,7 +49,7 @@ h4 { /* Matches elements with h3 tag */
 	align-content: center;
   padding-top: 10%;
 	width: ;
-	position: 
+	position:
 }
 
 #div4 {
