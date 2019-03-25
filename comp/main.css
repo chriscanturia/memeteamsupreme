@@ -17,9 +17,11 @@ body,html{
 
 #div2 {
 
-  margin-top: -870px;
-  margin-left: 400px;
+
+  position: absolute;
+  margin-top:  -820px;
+  margin-left: 335px;
   padding: 10px;
   border: 50px;
-  align-content: "center";
+  background-blend-mode: "difference";
 }
