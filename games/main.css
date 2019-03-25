@@ -1,22 +1,53 @@
 
 body, html {
-	height: 100%;
 	width: 100%;
+  text-align: center;
 }
 body { /* General style rules for the body section */
 	background-image: url(/games/images/gamingbackground.gif);
   background-repeat: no-repeat;
 	background-size: cover;
 }
+
+p {
+  color: white;
+  font-size: 30px;
+}
+
 h1 {
-  text-align: middle
-  ;
+  color: black;
+  font-size: 70px;
 }
-
 h2 {
-  text-align: center;
+  color: Black;
+  font-size: 50px;
+}
+h3 {
+  color: yellow;
+  font-size: 30px;
+}
+h4 {
+  color: blue;
 }
 
-h3 {
-  text-align: center;
+#div1 {
+  background-color: yellow;
+  margin: 5%
+  padding: 6px;
+  }
+
+#div2 {
+  /*background-color: blue;*/
+  margin: 5%;
+  padding: 6px;
+  float: left;
+  width: 35%;
+}
+
+#div3 {
+  /*background-color: red;*/
+  margin: 5%;
+  padding: 6px;
+  float: right;
+  width: 35%;
 }
