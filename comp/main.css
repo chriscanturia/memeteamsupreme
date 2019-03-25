@@ -6,14 +6,19 @@ body,html{
 
 
 #div1 {
-  margin: 10%;
+  margin-left: 245px;
+  margin-right: 245px;
+  margin-top: 50px;
+  position: "relative" ;
   padding: 10px;
   border: 50px;
-  align-content: "center";
+  align-items: : "center";
 }
 
 #div2 {
-  margin: 10%;
+
+  margin-top: -870px;
+  margin-left: 400px;
   padding: 10px;
   border: 50px;
   align-content: "center";
