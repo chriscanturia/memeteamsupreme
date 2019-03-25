@@ -5,7 +5,7 @@ body, html {
 	width: 100%;
 }
 body { /* General style rules for the body section */
-	background-image: url(/images/back.jpg);
+	background-image: url("/images/back.jpg");
 	text-align:center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -52,8 +52,8 @@ top: 30%;
  	margin-left: auto;
 	margin-right: auto;
 	width: 350px;
-	border: 3px solid purple;
-	background-color: #FF72F0;
+	border: 3px solid orange;
+	background-color: #40FFBC;
 	padding: 10px;
 	top: 23%
 
