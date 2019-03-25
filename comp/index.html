@@ -9,9 +9,33 @@
 
     <body>
 
-      <div id="div1">
-        <img src="/comp/images/Comp.jpg">
+      <div class= "trail">
+          <div class= "pointer pointer1"></div>
+          <div class= "pointer pointer2"></div>
+          <div class= "pointer pointer3"></div>
+          <div class= "pointer pointer4"></div>
+          <div class= "pointer pointer5"></div>
       </div>
+
+      <script src= "https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type= "text/javascript">
+          $(document).mousemove(function(e){
+            $('.pointer') .css({left:e.pageX, top:e.pageY});
+          })
+      </script>
+
+
+      <div id="div1">
+        <img src="images/Comp.jpg">
+      </div>
+
+      <div id="div2">
+        <video autoplay loop
+        src="/comp/images/comphist.mp4" width="645px">
+
+      </div>
+
+
 
 
     </body>
